@@ -2,6 +2,9 @@
 
 use std::{error::Error, fmt};
 
+#[cfg(test)]
+mod tests;
+
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub struct Point {
     pub x: f64,
